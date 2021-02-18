@@ -37,6 +37,7 @@
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. [HW2 Optional](https://drive.google.com/file/d/1yzNvGBgjgtuKXDFo983OqtTNoHDbyn1z)
 #### Apply 3_05_HW2_optional_MealServlet.patch
+> - Заменил `@Depricated StringUtils.isEmpty` на `hasLength` (условие приходится инвертировать). **ВНИМАНИЕ: [обновленный патч от 18.02 в 11.23](https://drive.google.com/file/d/10he49sS_2B1yRmPl3qeIcbVUQ3N58-YI)**
 > - Убрал логирование (уже есть в контроллере)
 > - `assureIdConsistent` позволяет в контроллере обновлять еду с `id=null`
 
