@@ -92,7 +92,7 @@
 
 #### Apply 1_3_add_servlet_api.patch
 
-> - Если зависимость `servlet-api` не подтянулась, сделай `Reimport All Maven Projects` (см. [Обновить зависимости в maven проекте](https://github.com/JavaOPs/topjava/wiki/IDEA#Обновить-зависимости-в-maven-проекте)).
+> - Если зависимость `servlet-api` не подтянулась, сделай `Reimport All Maven Projects` (см. [Обновить зависимости в maven проекте](https://github.com/JavaOPs/topjava/wiki/IDEA#maven_update)).
 **Все зависимости в Maven прект подтягиваются ТОЛЬКО через Maven**. 
 > - [Проверка, кто занял порт](https://stackoverflow.com/a/38953356/548473) (в случае проблем с запуском и дебагом на портах 8080, 8000)</a>
 > - [**Деплой war в Tomcat с Application context**](https://github.com/JavaOPs/topjava/wiki/IDEA#Деплой-war-в-tomcat-application-context-должен-быть-тот-же-что-и-url-приложения-деплоить-надо-war-exploded)
