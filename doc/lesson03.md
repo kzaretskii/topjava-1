@@ -92,7 +92,7 @@
 ### После патча сделайте `clean` и [обновите зависимости Maven](https://github.com/JavaOPs/topjava/wiki/IDEA#maven_update), чтобы IDEA определила сорсы тестов
 #### ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Вопрос: почему проект упадет при попытке открыть страничку еды (в логе смотреть самый верх самого нижнего исключения)?
 - В `InMemoryUserRepository` при инициализации репозиториев никак не учитывается/сбрасывается счетчик. Тк у нас все тесты будут с базой данных, это прошло незамеченным много потоков.
-Предлагайте свои решения [в обсуждение](https://topjava22.slack.com/archives/C01ND5ZEH61/p1613650411020800?thread_ts=1613650344.020700&cid=C01ND5ZEH61) 
+Предлагайте свои решения [в обсуждении](https://topjava22.slack.com/archives/C01ND5ZEH61/p1613650411020800?thread_ts=1613650344.020700&cid=C01ND5ZEH61) 
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFai1veG9qaFZlZ2s">Spring Test</a>
 > - поменял `@RunWith`: `SpringRunner` is an alias for the `SpringJUnit4ClassRunner`
@@ -192,7 +192,7 @@ GRANT ALL PRIVILEGES ON DATABASE topjava TO "user";
 #### Apply 3_15_fix_servlet.patch
 **Приложение перестало работать, тк. для репозитория мы используем заглушку `JdbcMealRepository`**
 
-#### Apply 3_16_fix_junit.patch
+#### Apply [3_16_fix_junit.patch](https://drive.google.com/file/d/15FGxDjfiuwdkjc7miOibnB7570mUr9-i)
 > При выполнении функционала `create/update` объекты могут измениться, и мы не можем считать их эталонными. Поэтому при сравнении мы создаем эталон еще раз.
  
 ## ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Ваши вопросы
