@@ -81,11 +81,11 @@
 - [Регрессионное тестирование](https://ru.wikipedia.org/wiki/Регрессионное_тестирование)
 - [Разработка через тестирование](https://ru.wikipedia.org/wiki/Разработка_через_тестирование)
 - [Тестирование Java кода с помощью JUnit](http://www.javenue.info/post/19)
-- [maven-surefire-plugin](https://www.apache-maven.ru/plugins/maven-surefire-plugin.html)
+- [maven-surefire-plugin](https://maven.apache.org/surefire/maven-surefire-plugin/usage.html)
 - Дополнительно:
   - [JUnit 4](http://junit.org/junit4)
   - [Тестирование в Java. JUnit](http://habrahabr.ru/post/120101/)
-  - [Junit — Что почитать по jUnit-тестам](https://i-http.ru/junit-chto-pochitat-po-junit-testam/)
+  - [Юнит-тестирование для чайников](https://habr.com/ru/post/169381/)
   - [Тестирование кода Java с помощью фреймворка JUnit](https://www.youtube.com/watch?v=z9jEVLCF5_w) (youtube)
 
 #### Apply 3_09_add_junit.patch
