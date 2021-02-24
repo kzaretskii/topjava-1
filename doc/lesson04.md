@@ -18,7 +18,7 @@
 
 #### **Apply 4_1_HW3.patch**
 
-#### [Сравнение времени выполнения для разных индексов](meals_index.md)
+### [Сравнение времени выполнения для разных индексов](meals_index.md)
 - <a href="http://stackoverflow.com/questions/970562/postgres-and-indexes-on-foreign-keys-and-primary-keys">На id как на primary key индекс создается автоматически</a>
 - Все запросы в таблицу meals у нас идут с `user_id`
 - По полю `date_time` не только есть запросы, но и сортируем результат. То есть это поле - хороший кандидат для индексирования
@@ -32,9 +32,11 @@
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. [HW03 Optional: Meals tests](https://drive.google.com/file/d/1RfO0Irz8ayw2ivnjffUol20BQrKpu-jg)
 
 #### **Apply 4_2_HW3_optional.patch**
+> Убрал `throws Exception` из тестов. IDEA по умолчанию перестала их добавлять.
+> В `MealServiceTest.updateNotOwn` добавил дополнительную проверку, что еда в тесте не модифицировалась.
 
 #### **Apply 4_3_tests_refactoring.patch**
-> - Переименовал статический метод генерации ([Блох Джошуа, "Java. Эффективное программирование."](http://javaops.ru/view/books)) на `usingFieldsComparator`.
+> - Переименовал статический метод генерации ([Блох Джошуа, "Java. Эффективное программирование."](http://javaops.ru/view/books)) на `usingIgnoringFieldsComparator`.
 
 #### **Apply 4_4_HW3_fix_logging.patch**
 - [Вызов статического метода из конфигурации спринга](https://stackoverflow.com/a/27296470/548473) 
