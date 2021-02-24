@@ -105,6 +105,8 @@
 -  [PostgreSQL JDBC Driver](https://github.com/pgjdbc/pgjdbc)
 -  <a href="http://java-course.ru/begin/postgresql/">Установка PostgreSQL</a>.
 -  Чтобы избежать проблем с правами и именами каталогов, [**рекомендуют установить postgres в простой каталог, например `C:\Postgresql`**. И при проблемах создать каталог data на другом диске](https://stackoverflow.com/questions/43432713/548473). Если Unix, [проверить права доступа к папке (0700)](http://www.sql.ru/forum/765555/permissions-should-be-u-rwx-0700). Название ПК и имя пользователя должны быть латиницей (или можно устанавливать сервер [отсюда](https://postgrespro.ru/windows))
+    - [Установка PostgreSQL в UBUNTU](https://losst.ru/ustanovka-postgresql-ubuntu-16-04)
+    - [Install PostgreSQL 13 on Fedora](https://computingforgeeks.com/install-postgresql-13-on-fedora/)
     
 > Создать в pgAdmin новую базу `topjava` и новую роль `user`, пароль `password`
 
