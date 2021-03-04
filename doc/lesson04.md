@@ -76,6 +76,8 @@
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVWZYcHoyUF9qX2M">ORM. Hibernate. JPA.</a>
 <a href="https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model">Entity</a>- класс (объект Java), который в ORM маппится в таблицу DB.
 
+[EntityManager](https://jsehelper.blogspot.com/2016/04/java-persistence-api-jpa-2.html) - это по сути прокси-обертка над Hibernate Session, которая создается каждый раз при открытии транзакции.
+
 > - ВНИМАНИЕ: патч меняет `postgres.properties`, в котором у вас, возможно, свои креденшелы к базе
 > - `hibernate-core` с 5.2.x включает `hibernate-entitymanager` и `hibernate-java8`, то есть конверторы Time API уже не нужны
 >    -  <a href="http://stackoverflow.com/questions/23718383/jpa-support-for-java-8-new-date-and-time-api">JPA support for Java 8 new date and time API</a>
