@@ -75,6 +75,7 @@
 #### Apply 5_5_profiles_connection_pool.patch
 > - `SLF4JBridgeHandler` перенес в профиль `postgres` (если логировать драйвер не нужно, то и он не нужен) 
 > - **Галочка в XML-профиле влияет только на отображение в IDEA и никак не влияет на выполнение кода.**
+> - Перенес класс `Profiles` в сорсы тестов
 > - `Profiles.ACTIVE_DB` задает активный профиль базы (postgres/hsqldb)
 > - `Profiles.REPOSITORY_IMPLEMENTATION` определяет реализацию репозитория при запуске приложения (для тестов задаются через `@ActiveProfiles`).
 
@@ -94,7 +95,7 @@
 
 ### Автоматический выбор профиля базы: [`ActiveProfilesResolver`](http://stackoverflow.com/questions/23871255/spring-profiles-simple-example-of-activeprofilesresolver)
 #### Apply 5_6_profile_resolver.patch
-> Сделал автоматический выбор профиля базы при запуске приложения (тестов) в зависимости от присутствия драйвера базы в classpath (`Profiles.getActiveDbProfile()`)
+> Сделал автоматический выбор профиля базы при запуске приложения (тестов) в зависимости от присутствия драйвера базы в classpath (`Profiles.getActiveDbProfile`). `ActiveDbProfileResolver` сделал внутренним классом `Profiles` 
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTWJOdHduOWtNcTA">Пул коннектов</a>
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Александр Колесников - JDBC Pools Battle](https://www.youtube.com/watch?v=J9GzE2qlNuM&feature=youtu.be&t=2895) (ссылка на выводы)
