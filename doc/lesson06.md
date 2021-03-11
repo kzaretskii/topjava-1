@@ -64,7 +64,7 @@ C `@BatchSize(size = 200)` делается запрос на юзеров (1), 
  
  Прежде всего - пользуйтесь дебагом! Исключение легко увидеть в методе `getRootCause()`. Если подебажить выполение Hibernate валидации, то можно найти, где обрабатываются аннотации валидации и место в `org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate()`, где бросается `ConstraintViolationException`.
 
-#### Apply 6_08_add_test_validation.patch
+#### Apply [6_08_add_test_validation.patch](https://drive.google.com/file/d/1DuM1i2WehewEQn6Bi5jOC88FQR6tYqWU) - обновился 11.03 в 17.26
 **Тесты валидации для Jdbc не работают, нужно будет починить в HW6 (в реализация Jdbc валидация отсутствует)**
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeTV0SUFfblk5NE0">Кэш Hibernate</a>
