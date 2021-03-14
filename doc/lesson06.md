@@ -178,7 +178,7 @@ C `@BatchSize(size = 200)` делается запрос на юзеров (1), 
 
 > Настройки `Project Structure->Modules->Spring`:
 
-![image](https://user-images.githubusercontent.com/13649199/111077498-10031b80-8502-11eb-8bdb-d75bd2196b9f.png)
+![image](https://user-images.githubusercontent.com/11200258/111077810-953b0000-8503-11eb-8d4d-03320fce2cf3.png)
 
 > ![](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) В `web.xml` мы инициализируем `DispatcherServlet`, передавая ему параметром `spring-mvc.xml`. Получается, что `DispatcherServlet` парсит `spring-mvc.xml` и находит в нем context?
 
