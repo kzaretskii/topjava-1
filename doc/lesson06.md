@@ -179,7 +179,7 @@ Cамое простое - поставить брекпойнт в констр
 
 > Настройки `Project Structure->Modules->Spring`:
 
-![image](https://user-images.githubusercontent.com/11200258/111077810-953b0000-8503-11eb-8d4d-03320fce2cf3.png)
+![image](https://user-images.githubusercontent.com/11200258/112018359-8aa1eb80-8b3f-11eb-942f-a8eb7938de41.png)
 
 > ![](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) В `web.xml` мы инициализируем `DispatcherServlet`, передавая ему параметром `spring-mvc.xml`. Получается, что `DispatcherServlet` парсит `spring-mvc.xml` и находит в нем context?
 
